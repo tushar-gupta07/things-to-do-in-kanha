@@ -1,0 +1,32 @@
+# robots.txt for Things to Do in Kanha National Park
+# https://things-to-do-in-kanha-national-park.local/
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location (also acts as a backlink reference)
+Sitemap: https://things-to-do-in-kanha-national-park.local/sitemap.xml
+
+# Major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Crawl-delay for polite bots
+Crawl-delay: 1
